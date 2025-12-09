@@ -33,4 +33,7 @@ function find(n) {
   }
   return out; // מחזיר רפרנסים פנימיים
 }
+//rename the function to findItem
+//review the synax
+//rename the variables
 console.log('hello');
