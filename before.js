@@ -4,10 +4,11 @@ var items = [
 ]; // rename the item to real name
 
 function add(a, b, c) {
-  const it = { id: items.length + 1, name: a, qty: c || 1 }; // change it to item anf also quantity and change the '||1' to default parameter
+  const it = { id: items.length + 1, name: a, qty: c || 1 };
   items.push(it);
   return true; // תמיד true
 }
+// change it to item anf also quantity and change the '||1' to default parameter
 
 function del(x) {
   for (let i = 0; i <= items.length; i++) {
@@ -19,6 +20,9 @@ function del(x) {
     }
   }
 }
+// real name for the function "delete"
+//rename x to item
+// use ===
 
 function find(n) {
   const out = [];
