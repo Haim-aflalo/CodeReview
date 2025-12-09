@@ -8,7 +8,3 @@ function add(name, quantity = 1) {
   items.push(item);
   return true; // תמיד true
 }
-console.log(items);
-
-add('k');
-console.log(items);
